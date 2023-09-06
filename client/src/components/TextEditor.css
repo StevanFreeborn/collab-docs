@@ -1,0 +1,30 @@
+.editor-wrapper {
+  background-color: #f3f3f3;
+}
+
+.editor-wrapper .ql-container.ql-snow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.editor-wrapper .ql-editor {
+  width: 8.5in;
+  height: 11in;
+  padding: 1in;
+  margin: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+
+.editor-wrapper .ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border: none;
+}
