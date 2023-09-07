@@ -41,10 +41,6 @@ io.on('connection', socket => {
       await Documents.findByIdAndUpdate(documentId, { data });
       socket.broadcast.to(documentId).emit('changes-received', delta);
     });
-
-    socket.on('save-document', async data => {
-      await Documents.findByIdAndUpdate(documentId, { data });
-    });
   });
 });
 
